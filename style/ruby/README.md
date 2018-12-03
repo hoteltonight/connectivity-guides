@@ -27,8 +27,6 @@ Ruby
 * Prefer `if` over `unless`. [#254]
 * Use `_` for unused block parameters. [0d819844]
 * Prefix unused variables or parameters with underscore (`_`). [#335]
-* Use a leading underscore when defining instance variables for memoization.
-  [#373]
 * Use `%{}` for single-line strings containing double-quotes that require 
   interpolation. [36491dbb9]
 * Use `{...}` for single-line blocks. Use `do..end` for multi-line blocks.
@@ -68,7 +66,6 @@ Ruby
 [#331]: https://github.com/thoughtbot/guides/pull/331
 [#332]: https://github.com/thoughtbot/guides/pull/332
 [#335]: https://github.com/thoughtbot/guides/pull/335
-[#373]: https://github.com/thoughtbot/guides/pull/373
 [#417]: https://github.com/thoughtbot/guides/pull/417
 [0d819844]: https://github.com/thoughtbot/guides/commit/0d819844
 [36491dbb9]: https://github.com/thoughtbot/guides/commit/36491dbb9
